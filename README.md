@@ -14,21 +14,37 @@ This microservice offers an easy way to obtain interpretations of scores related
 
 ## Usage
 
-To use the microservice, send scores in the specified format to the provided endpoint:
+### Requesting Data
+
+Send a POST request to the provided endpoint:
 ```
 https://approach-microservice.onrender.com/api/interpret
 ```
 
-Example of sample data format to be sent:
+#### Example Call
+
+Include sample data in this format:
 ```json
 {
   "scores": [0.5, 0.1, 0.8, 1]
 }
 ```
 
-## How It Works
+### Receiving Data
 
-The microservice interprets the received scores and generates human-readable insights about the various attributes indicated in the input.
+Upon sending a POST request with the specified data format to the endpoint, the microservice will respond with human-readable interpretations of the scores.
+
+#### Example Response
+```json
+{
+    "interpretations": [
+        "There is uncertainty whether this message contains toxicity.",
+        "It is unlikely that this message contains an insult.",
+        "This message is very likely to contain a threat.",
+        "This message is very likely to contain an identity attack."
+    ]
+}
+```
 
 ## Note
 
