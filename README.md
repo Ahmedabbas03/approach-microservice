@@ -13,6 +13,21 @@ This microservice offers an easy way to obtain interpretations of scores related
 - Facilitates better understanding and utilization of score-related information.
 
 ## Usage
+```
+Start
+  |
+  v
+Client Sends POST Request to Microservice Endpoint
+  |
+  v
+Microservice Processes Data and Generates Interpretations
+  |
+  v
+Microservice Sends Interpretations as Response to Client
+  |
+  v
+End
+```
 
 ### Requesting Data
 
