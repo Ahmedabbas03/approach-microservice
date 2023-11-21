@@ -2,29 +2,6 @@
 
 The Approach Microservice is designed to interpret scores, providing human-readable insights into various attributes such as toxicity, insults, threats, and identity attacks.
 
-## Communication Contract
-
-- **Discord:** For quick questions, updates, etc.
-- **Email:** For official communications and sharing detailed information.
-- **Biweekly Meetings:** Scheduled virtual meetings via Zoom on other Thursdays at 2:00 PM (CST) for project updates, discussions, and issue resolution.
-
-### Response Time
-
-- **Discord:** We aim to respond within 24 hours during weekdays.
-- **Email:** Replies within 48 hours during weekdays.
-
-### Guidelines for Effective Communication
-
-1. **Clear Communication:** Be clear and specific when sharing ideas or information.
-2. **Respectful Interaction:** Maintain a professional and respectful manner in all communications.
-3. **Timely Responses:** Aim to respond promptly and be on time for scheduled meetings.
-
-### Conflict Resolution
-
-In the event of conflicts or disagreements:
-- First, attempt to resolve the issue through discussion and compromise.
-- If resolution isn’t possible, escalate the matter to a TA or professor.
-
 ## Overview
 
 This microservice offers an easy way to obtain interpretations of scores related to different attributes and provides understandable interpretations.
