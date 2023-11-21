@@ -26,8 +26,13 @@ Microservice Processes Data and Generates Interpretations
 Microservice Sends Interpretations as Response to Client
   |
   v
-End
+End<img width="564" alt="Screenshot 2023-11-20 at 6 52 17 PM" src="https://github.com/Ahmedabbas03/approach-microservice/assets/86217781/e5bd19e6-32d6-48c8-8cba-f31593225a44">
+
 ```
+
+
+![Uploading Screenshot 2023-11-20 at 6.52.17 PM.png…]()
+
 
 ### Requesting Data
 
